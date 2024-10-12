@@ -201,7 +201,8 @@ main {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: fit-content;
+  width: 70%;
+  margin: auto;
   word-break: break-word;
   border: 0;
 }
