@@ -108,7 +108,7 @@
   text-align: center;
   text-decoration: none #000000 solid;
   text-decoration-thickness: auto;
-  width: 100%;
+  width: 60%;
   max-width: 460px;
   position: relative;
   cursor: pointer;
@@ -126,6 +126,7 @@
   content: '';
   position: absolute;
   border: 1px solid #000000;
+  border-radius: 50px;
   bottom: 4px;
   left: 4px;
   width: calc(100% - 1px);
@@ -184,6 +185,11 @@ main {
 }
 
 .bullet-btn {
+  <!-- HTML !-->
+<button class="button-34" role="button">Button 34</button>
+
+/* CSS */
+.button-34 {
   background: #5E5DF0;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
@@ -203,6 +209,7 @@ main {
   width: fit-content;
   word-break: break-word;
   border: 0;
+}
 }
 
 .bullet-btn:hover {
